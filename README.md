@@ -60,6 +60,7 @@ VMware [Photon](https://vmware.github.io/photon/) (lightweight linux host for co
 
 ----------------------------------------------------------------------
 
+
 1st column
 ##DevOps Pipeline:
 1. Author Code & Check In
@@ -85,13 +86,14 @@ VMware [Photon](https://vmware.github.io/photon/) (lightweight linux host for co
 11. Management/Monitoring
 
 
+
 2nd Column
 ##Continuous Delivery:
-Continuous Development
+1. Continuous Development
 
-Continuous Integration
+2. Continuous Integration
 
-Continuous Deployment
+3. Continuous Deployment
 
 
 ----------------------------------------------------------------------
@@ -136,64 +138,64 @@ Cloudbees [Jenkins CI](https://www.cloudbees.com/jenkins/about/code-quality-anal
 [Shippable](https://app.shippable.com/) (automated DevOps with Docker)
 
 ####Code Quality Analysis
-SonarQube (code quality with containers)
+[SonarQube](http://www.sonarqube.org/) (code quality with containers)
 
-Cloudbees Jenkins CI (build slaves runnable within a Docker container)
+Cloudbees [Jenkins CI](https://www.cloudbees.com/jenkins/about/code-quality-analysis) (build slaves runnable within a Docker container)
 
 ####Packaging and Build Automation
-Atlassian (using Docker containers to create build agents)
+Atlassian [Bamboo](https://www.atlassian.com/software/bamboo)(using Docker containers to create build agents)
 
-CloudBees Jenkins CI (build slaves runnable within a Docker container)
+Cloudbees [Jenkins CI](https://www.cloudbees.com/jenkins/about/code-quality-analysis) (build slaves runnable within a Docker container)
 
-Quay.io (secure hosting and private storage for teams using Docker during deployment)
+[Quay.io](https://quay.io/) (secure hosting and private storage for teams using Docker during deployment)
 
 ####Testing Frameworks
-Salt (allows unit testing within container)
+[Salt](http://docs.saltstack.com/en/latest/ref/states/all/salt.states.dockerio.html) (allows unit testing within container)
 
-New Relic (unit testing and monitoring app performance for Docker)
+[New Relic](http://newrelic.com/docker) (unit testing and monitoring app performance for Docker)
 
-SeleniumEnv (can be run through Docker instead of installed)
+[SeleniumEnv](https://github.com/Codeception/SeleniumEnv) (can be run through Docker instead of installed)
 
-PhantomJsEnv (can be run through Docker instead of installed)
+[PhantomJsEnv](https://github.com/Codeception/PhantomJsEnv) (can be run through Docker instead of installed)
 
-RoboCI (aimed to run Travis CI builds locally inside Docker containers)
+[RoboCI](https://github.com/Codegyre/RoboCI) (aimed to run Travis CI builds locally inside Docker containers)
 
 
 ###Continuous Deployment
 ####Continuous Deployment
-Docker Compose (defining and running multi-container applications)
+Docker [Compose](https://docs.docker.com/compose/) (defining and running multi-container applications)
 
-Screener (helps screen code before and after being Dockerized)
+[Screener.io](https://screener.io/) (helps screen code before and after being Dockerized)
 
-Amazon OpsWorks (how to integrate with Docker can be found here)
+Amazon [OpsWorks](http://aws.amazon.com/opsworks/) (how to integrate with Docker can be found here)
 
-Ansible (playbooks will generate consistent app in containers & vms)
+[Ansible](http://www.ansible.com/docker) (playbooks will generate consistent app in containers & vms)
 
-Chef (container management, provisioning and automation)
+[Chef.io](https://www.chef.io/solutions/containers/) (container management, provisioning and automation)
 
-PuppetLabs Puppet Forge (Docker management)
+PuppetLabs [Puppet Forge](https://forge.puppetlabs.com/tags/docker) (Docker management)
 
-Salt (container management, provisioning and automation)
+[Salt](http://docs.saltstack.com/en/latest/ref/states/all/salt.states.dockerio.html) (container management, provisioning and automation)
 
 ####Artifact and Image Registry
-JFrog Artifactory (doubles as a Docker registry)
+JFrog [Artifactory](http://www.jfrog.com/confluence/display/RTF/Docker+Repositories) (doubles as a Docker registry)
 
 [Google Container Registry] (https://cloud.google.com/container-registry/) (secure Docker image storage on Google Cloud platform)
 
 [Tutum Registry] (https://support.tutum.co/support/solutions/articles/5000012183-using-tutum-s-private-Docker-image-registry) (free private Docker registry)
 
-Quay.io (secure hosting for Docker registries)
+[Quay.io](https://quay.io/plans/) (secure hosting for Docker registries)
 
 ####Operations Tools
-AppDynamics (extension for Docker monitoring)
+[AppDynamics](http://community.appdynamics.com/t5/eXchange-Community-AppDynamics/Docker-Monitoring-Extension/idi-p/14749) (extension for Docker monitoring)
 
-CenturyLink Labs (tools to visualize & manage containers)
+[CenturyLink Labs] (https://labs.ctl.io/) (tools to visualize & manage containers)
 
-Sysdig (distributed container monitoring)
+[Sysdig] (https://sysdig.com/distributed-container-monitoring-sysdig-cloud-revolution/) (distributed container monitoring)
 
-SignalFx (streaming analytics of Docker apps)
+[SignalFx](http://blog.signalfx.com/signalfx-is-proud-to-join-the-docker-ecosystem-technology-partner-program) (streaming analytics of Docker apps)
 
-New Relic (distributed container monitoring and analytics)
+[New Relic](https://blog.newrelic.com/2015/05/06/docker-support-2/) (distributed container monitoring and analytics)
 
 
 

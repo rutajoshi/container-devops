@@ -44,6 +44,8 @@ EngineYard [Deis](http://deis.io/overview/) (open source PaaS for Docker)
 
 Joyent [Triton](https://www.joyent.com/) (elastic container infrastructure)
 
+[Kismatic](https://kismatic.com/) (packaging and support for Kubernetes)
+
 [Kontena](http://www.kontena.io/) (application containers for masses)
 
 Google [Compute Engine](https://cloud.google.com/compute/) (PaaS with container managed service)
